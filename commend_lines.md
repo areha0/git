@@ -5,4 +5,4 @@
    使用时 `git reset --hard HEAD^(或是commit_id(只需前几位))`
 5. git reflog: 查询每次的指令
 6. 使用`git add +file`命令是修改添加到暂存区, 使用`git commit`命令是将暂存区的所有修改添加到当前分支(master)中
-7. 
+7. `git restore + file`: 撤销修改操作: 1. 没有使用`git add`, 撤销修改, 2.使用`git add`, 撤销修改到上一次commit
