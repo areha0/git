@@ -6,3 +6,11 @@
 5. git reflog: 查询每次的指令
 6. 使用`git add +file`命令是修改添加到暂存区, 使用`git commit`命令是将暂存区的所有修改添加到当前分支(master)中
 7. `git restore + file`: 撤销修改操作: 1. 没有使用`git add`, 撤销修改, 2.使用`git add`, 撤销修改到上一次commit
+  
+8. 将已存在的仓库推送到远程
+  **…or push an existing repository from the command line**
+  git remote add origin git@github.com:areha0/git.git
+  git branch -M main
+  git push -u origin main
+9. 如果远程的连接地址写错了: 先使用`git remote -v`查看远程库信息; 再使用`git remote rm <name>`删除远程库
+    
